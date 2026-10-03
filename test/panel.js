@@ -1920,7 +1920,7 @@ async function main() {
     assertEqual(copied, moduleUrl, '「复制地址」复制的是按钮里的模块地址');
     assertEqual(btn.textContent, '已复制');
     // 这个页面可以不经 README 直接打开，所以先讲安装前的两件事并链回 README 的第一步；链到的标题 README 里都要有
-    for (const need of ['全局路由', '配置', 'HTTPS 解密', '证书信任设置', '完全信任', 'No PKCS12 Certificates']) assert(markup.includes(need), '页面要先讲安装前的两件事：' + need);
+    for (const need of ['全局路由', '配置', 'HTTPS 解密', '证书信任设置', '完全信任', '装好了却没反应']) assert(markup.includes(need), '页面要先讲安装前的两件事：' + need);
     const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8').replace(/<!--[\s\S]*?-->/g, '');
     const anchors = new Set();
     for (const m of readme.matchAll(/^#{1,6}\s+(.+?)\s*#*\s*$/gm)) anchors.add(m[1].toLowerCase().replace(/[^\p{L}\p{M}\p{Nd}\p{Pc} -]/gu, '').replace(/ /g, '-'));
@@ -1943,6 +1943,10 @@ async function main() {
     assert(!/^\s*-?\s*run:/m.test(wf), 'Pages 的发布流程不许跑别的命令（免得把别的文件带进网站）');
     const triggers = ((wf.match(/^on:\n((?:[ \t]+.*\n)+)/m) || [])[1] || '').split('\n').filter((l) => /^  [a-z_]+:/.test(l)).map((l) => l.trim().replace(/:.*$/, ''));
     assertEqual(triggers.join(' '), 'push workflow_dispatch', 'Pages 只在推送或手动运行时发布');
+    // 不换行的片段要短：一段太长的话，窄屏手机上它撑宽整页，右边被截掉、要左右拖着看（375 宽的屏幕约容得下 18 个字）
+    const nw = [...text.matchAll(/<span class="nw">([^<]*)<\/span>/g)].map((m) => m[1]);
+    assert(nw.length >= 3, '前提：页面里有不换行的片段：' + nw.length);
+    for (const s of nw) assert(s.length <= 10, '不换行的片段太长，窄屏上会撑宽整页：' + s);
   });
 
   await check('品牌名一致：模块文件与名称、脚本标签、页面标题与主屏幕名称、品牌名、通知标题、日志前缀、README 标题、标志图都叫 SubsPair，没有别的名字', async () => {

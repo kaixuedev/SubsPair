@@ -15,7 +15,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Segoe UI","Noto Sans SC",sans-serif;
   padding:calc(24px + env(safe-area-inset-top,0px)) 16px calc(32px + env(safe-area-inset-bottom,0px))}
-main{max-width:460px;margin:0 auto;display:grid;gap:16px}
+main{max-width:460px;margin:0 auto;display:grid;gap:16px;grid-template-columns:minmax(0,1fr);overflow-wrap:anywhere}
 header{text-align:center;display:grid;gap:6px;justify-items:center}
 header svg{width:96px;height:60px;color:var(--ink)}
 h1{font-size:28px;margin:0;letter-spacing:.01em}
@@ -54,9 +54,9 @@ footer{font-size:13px;color:var(--muted);text-align:center;display:grid;gap:6px}
     <h2>先做好这两件事</h2>
     <ol>
       <li>小火箭首页的<span class="nw">「全局路由」</span>选<span class="nw">「配置」</span>。</li>
-      <li>在小火箭里打开 HTTPS 解密并安装证书，再到 iPhone 的<span class="nw">「设置」</span>里把证书装上，最后在<span class="nw">「设置 → 通用 → 关于本机 → 证书信任设置」</span>里打开<span class="nw">「完全信任」</span>。步骤见 <a href="https://github.com/kaixuedev/SubsPair#第一步打开-https-解密最重要">安装说明第一步</a>。</li>
+      <li>在小火箭里打开 HTTPS 解密并安装证书，再到 iPhone 的<span class="nw">「设置」</span>里把证书装上，最后在<span class="nw">「设置 →</span> <span class="nw">通用 →</span> <span class="nw">关于本机 →</span> <span class="nw">证书信任设置」</span>里打开<span class="nw">「完全信任」</span>。步骤见 <a href="https://github.com/kaixuedev/SubsPair#第一步打开-https-解密最重要">安装说明第一步</a>。</li>
     </ol>
-    <p>以前给别的模块做过的，可以跳过。装的时候小火箭如果提示「No PKCS12 Certificates」（意思是还没有可用的证书），说明第二件事没做完：做完后在小火箭里把模块删掉，再点下面的按钮重装。</p>
+    <p>以前给别的模块做过的，可以跳过。装好了却没反应，大多是第二件事没做完，尤其是最后的「完全信任」。</p>
   </section>
 
   <a class="install" href="shadowrocket://install?module=https://raw.githubusercontent.com/kaixuedev/SubsPair/release/SubsPair.sgmodule">一键安装到小火箭</a>

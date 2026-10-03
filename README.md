@@ -82,8 +82,6 @@ iOS 17.3 以上开着「失窃设备保护」、人又不在常待的地方时�
 https://raw.githubusercontent.com/kaixuedev/SubsPair/release/SubsPair.sgmodule
 ```
 
-小火箭提示「No PKCS12 Certificates」（意思是还没有可用的证书）：说明第一步没做完，做完后把模块删掉重装。
-
 ### 第三步：填 DeepSeek 密钥
 
 用 Safari 打开 **<https://subs.test/>**，点「前往 DeepSeek 开放平台获取 API Key」，创建一个密钥并复制（只显示一次），回来粘贴。填好后，你看的视频的字幕全文会发给 DeepSeek 翻译，详见[隐私](#隐私)。

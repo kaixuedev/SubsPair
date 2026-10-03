@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="64" viewBox="0 0 320 64">
+  <title>一键安装到小火箭</title>
+  <rect width="320" height="64" rx="32" fill="#e61110"/>
+  <g fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 21.5V35M52.5 29.5 58 35l5.5-5.5"/>
+    <path d="M48 35.5v3.5a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-3.5"/>
+  </g>
+  <text x="82" y="40.5" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600">一键安装到小火箭</text>
+</svg>

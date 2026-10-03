@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <title>在小火箭首页：全局路由 → 选「配置」</title>
+  <g font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <g fill="none" stroke="#8e8e93" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M182 60H222M209 47l13 13-13 13"/>
+      <path d="M514 60H554M541 47l13 13-13 13"/>
+    </g>
+    <g fill="#636366">
+      <rect x="6" y="24" width="160" height="72" rx="36"/>
+    </g>
+    <g fill="#fff" font-size="40" font-weight="600" text-anchor="middle">
+      <text x="86" y="74">小火箭</text>
+    </g>
+    <g fill="#ffffff" stroke="#d1d1d6" stroke-width="3">
+      <rect x="238" y="6" width="260" height="108" rx="26"/>
+    </g>
+    <g fill="#fff3f4" stroke="#e61110" stroke-width="5">
+      <rect x="570" y="6" width="216" height="108" rx="26"/>
+    </g>
+    <g fill="#0f0f0f" font-size="48" font-weight="500" text-anchor="middle">
+      <text x="368" y="77">全局路由</text>
+      <text font-weight="600" x="604" y="77" text-anchor="start">配置</text>
+    </g>
+    <path d="M720 59l11 11 21-23" fill="none" stroke="#065fd4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

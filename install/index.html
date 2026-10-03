@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>安装 SubsPair</title>
+<!-- 一键安装页：只从这里跳进小火箭安装本项目的模块。页面不自动跳转，按钮要用户自己点；
+     只写死本项目发布分支上的模块地址，不接受任何参数，也不加载任何外部资源。 -->
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16181c;--muted:#5d6570;--line:#dde1e6;--red:#e61110;--red-ink:#fff;--note:#fff6d6;--link:#0969da}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--ink:#eef1f4;--muted:#9aa4ae;--line:#2d333b;--red:#e0342c;--red-ink:#fff;--note:#3a300c;--link:#58a6ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Segoe UI","Noto Sans SC",sans-serif;
+  padding:calc(24px + env(safe-area-inset-top,0px)) 16px calc(32px + env(safe-area-inset-bottom,0px))}
+main{max-width:460px;margin:0 auto;display:grid;gap:16px}
+header{text-align:center;display:grid;gap:6px;justify-items:center}
+header svg{width:96px;height:60px;color:var(--ink)}
+h1{font-size:28px;margin:0;letter-spacing:.01em}
+.tag{margin:0;color:var(--muted);font-size:15px}
+.where{margin:0;text-align:center;font-size:14px;color:var(--muted)}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+h2{font-size:17px;margin:0 0 8px}
+ol{margin:0;padding-left:1.4em;display:grid;gap:6px}
+p{margin:0}
+section p+p,section ol+p{margin-top:8px}
+.warn{background:var(--note);border-color:transparent}
+a{color:var(--link)}
+.nw{white-space:nowrap}
+.install{display:block;text-align:center;text-decoration:none;background:var(--red);color:var(--red-ink);font-size:20px;font-weight:700;
+  border-radius:14px;padding:16px;box-shadow:0 2px 0 rgba(0,0,0,.12)}
+.install:active{transform:translateY(1px)}
+.small{font-size:14px;color:var(--muted);text-align:center}
+.addr{display:block;margin:8px 0;padding:10px 12px;border-radius:10px;background:var(--bg);border:1px solid var(--line);
+  font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all;user-select:all;-webkit-user-select:all}
+button{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:8px 14px}
+footer{font-size:13px;color:var(--muted);text-align:center;display:grid;gap:6px}
+:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="232 173 1148 711" role="img" aria-label="SubsPair 标志"><path fill="currentColor" fill-rule="evenodd" d="M582.6 193L1267.8 193A44 44 0 0 1 1301.3 265.5L1099.6 502.8A100 100 0 0 1 1023.5 538L355.8 538A50 50 0 0 1 317.7 455.6L514 224.7A90 90 0 0 1 582.6 193ZM596 330H1004A45 45 0 0 1 1004 420H596A45 45 0 0 1 596 330Z"/><path fill="currentColor" d="M534.5 577L1066.4 577A40 40 0 0 0 1090.8 568.7L1167.1 509.8A18 18 0 0 1 1178.1 506L1252.8 506A44 44 0 0 1 1286.3 578.5L1076.5 825.2A110 110 0 0 1 992.7 864L344.4 864A42 42 0 0 1 312.4 794.8L473.6 605.2A80 80 0 0 1 534.5 577Z"/><path fill="#e61110" d="M589 663H919A46 46 0 0 1 919 755H589A46 46 0 0 1 589 663Z"/></svg>
+    <h1>SubsPair</h1>
+    <p class="tag">AI 驱动的 YouTube 双语字幕生成器，iPhone、iPad 上 App 和网页版通用</p>
+  </header>
+
+  <p class="where">请在装了小火箭的 iPhone 或 iPad 上，用 Safari 打开这个页面。</p>
+
+  <section class="warn">
+    <h2>先做好这两件事</h2>
+    <ol>
+      <li>小火箭首页的<span class="nw">「全局路由」</span>选<span class="nw">「配置」</span>。</li>
+      <li>在小火箭里打开 HTTPS 解密并安装证书，再到 iPhone 的<span class="nw">「设置」</span>里把证书装上，最后在<span class="nw">「设置 → 通用 → 关于本机 → 证书信任设置」</span>里打开<span class="nw">「完全信任」</span>。步骤见 <a href="https://github.com/kaixuedev/SubsPair#第一步打开-https-解密最重要">安装说明第一步</a>。</li>
+    </ol>
+    <p>以前给别的模块做过的，可以跳过。装的时候小火箭如果提示「No PKCS12 Certificates」（意思是还没有可用的证书），说明第二件事没做完：做完后在小火箭里把模块删掉，再点下面的按钮重装。</p>
+  </section>
+
+  <a class="install" href="shadowrocket://install?module=https://raw.githubusercontent.com/kaixuedev/SubsPair/release/SubsPair.sgmodule">一键安装到小火箭</a>
+  <p class="small">点了之后 Safari 会问要不要打开小火箭，点「打开」，再按提示添加模块。</p>
+
+  <section>
+    <h2>按钮没反应？</h2>
+    <p>复制下面的地址，在小火箭<span class="nw">「配置 → 模块」</span>点右上角「+」粘贴。</p>
+    <code class="addr" id="addr">https://raw.githubusercontent.com/kaixuedev/SubsPair/release/SubsPair.sgmodule</code>
+    <button type="button" id="copy">复制地址</button>
+  </section>
+
+  <section>
+    <h2>装好之后</h2>
+    <p>用 Safari 打开 <a href="https://subs.test/">https://subs.test/</a> 填 DeepSeek 密钥，步骤见 <a href="https://github.com/kaixuedev/SubsPair#第三步填-deepseek-密钥">安装说明第三步</a>。然后打开英文视频，字幕选英文（不要选「自动翻译」）。</p>
+    <p>填好后，你看的视频的字幕全文会发给你选择的模型服务商，对方能看到并可能留存，详见 <a href="https://github.com/kaixuedev/SubsPair#隐私">隐私说明</a>。</p>
+  </section>
+
+  <footer>
+    <p>SubsPair 只在你的手机上运行，只处理 YouTube 字幕的读取与显示；翻译由你自己选择并开通的模型服务商完成，本项目不提供模型服务，不提供任何网络接入服务，不含服务器配置；开发者不运营服务器、不收集数据、不收费。</p>
+    <p>本项目与 YouTube、Shadowrocket、DeepSeek 均无关联；请在所在地法律法规允许的范围内使用，并遵守相关服务的条款。</p>
+    <p><a href="https://github.com/kaixuedev/SubsPair">GitHub 上的 SubsPair</a></p>
+  </footer>
+</main>
+<script>
+// 复制地址：剪贴板不可用时退回到选中文字，让用户自己长按复制
+document.getElementById('copy').addEventListener('click', function () {
+  var btn = this, addr = document.getElementById('addr');
+  function selectIt() {
+    var r = document.createRange(); r.selectNodeContents(addr);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    btn.textContent = '已选中，长按复制';
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(addr.textContent).then(function () { btn.textContent = '已复制'; }, selectIt);
+  } else selectIt();
+});
+</script>
+</body>
+</html>

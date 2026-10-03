@@ -1,0 +1,20 @@
+# 自动测试：每次推送到 main 都把全部测试跑一遍。零依赖，不需要 npm install。
+name: test
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - run: npm test

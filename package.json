@@ -1,0 +1,13 @@
+{
+  "name": "subspair",
+  "private": true,
+  "description": "SubsPair · YouTube AI 双语字幕（Shadowrocket 模块）",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tools/inline-panel.js --check && node test/panel.js && node test/run.js",
+    "build:panel": "node tools/inline-panel.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

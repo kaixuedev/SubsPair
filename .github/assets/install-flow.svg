@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="338" viewBox="0 0 1200 338">
+  <title>安装四步：① 打开 HTTPS 解密（最重要）→ ② 装模块 → ③ 填 DeepSeek 密钥 → ④ 看视频</title>
+  <g font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <g fill="none" stroke="#8e8e93" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M580 100H620M607 87l13 13-13 13"/>
+      <path d="M580 276H620M607 263l13 13-13 13"/>
+      <path d="M915 168q0 20-20 20H305q-20 0-20 20M272 195l13 13 13-13"/>
+    </g>
+    <g fill="#ffffff" stroke="#d1d1d6" stroke-width="3">
+      <rect x="636" y="44" width="558" height="112" rx="28"/>
+      <rect x="6" y="220" width="558" height="112" rx="28"/>
+      <rect x="636" y="220" width="558" height="112" rx="28"/>
+    </g>
+    <g fill="#fff3f4" stroke="#e61110" stroke-width="5">
+      <rect x="6" y="44" width="558" height="112" rx="28"/>
+    </g>
+    <circle cx="64" cy="100" r="32" fill="#e61110"/>
+    <circle cx="694" cy="100" r="32" fill="#0f0f0f"/>
+    <circle cx="64" cy="276" r="32" fill="#0f0f0f"/>
+    <circle cx="694" cy="276" r="32" fill="#0f0f0f"/>
+    <g fill="#fff" font-size="40" font-weight="700" text-anchor="middle">
+      <text x="64" y="114">1</text>
+      <text x="694" y="114">2</text>
+      <text x="64" y="290">3</text>
+      <text x="694" y="290">4</text>
+    </g>
+    <g fill="#0f0f0f" font-size="48" font-weight="500">
+      <text font-weight="600" x="114" y="117">打开 HTTPS 解密</text>
+      <text x="744" y="117">装模块</text>
+      <text x="114" y="293">填 DeepSeek 密钥</text>
+      <text x="744" y="293">看视频</text>
+    </g>
+    <rect x="376" y="6" width="164" height="58" rx="29" fill="#e61110" stroke="#fff" stroke-width="5"/>
+    <text x="458" y="49" fill="#fff" font-size="40" font-weight="600" text-anchor="middle">最重要</text>
+  </g>
+</svg>

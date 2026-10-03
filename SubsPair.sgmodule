@@ -1,0 +1,110 @@
+#!name=SubsPair · YouTube AI 双语字幕
+#!desc=AI 驱动的 YouTube 双语字幕生成器，iPhone、iPad 上 App 和网页版通用。把 YouTube 的英文字幕发给你自己开通的大模型服务（默认 DeepSeek）译成中文，合并成一条「上英下中」的字幕轨，在官方 YouTube App 里原生显示。\n\n前置：全局路由设为「配置」，并对当前配置开启 HTTPS 解密、信任证书。\n\n设置：Safari 打开 https://subs.test/ ——填 DeepSeek（或其他大模型服务）的密钥、测试连接、选目标语言与显示方式；改动在下次打开视频时生效，不用改文件。\n\n⚠️ 隐私：翻译不在手机上离线完成。填好密钥后，你看的每个视频的字幕全文都会发给你配置的模型服务商，对方能看到，一般会按其用户协议和适用的法律法规审核，可能拒绝翻译、保存记录或限制账户——字幕全文足以看出你在看什么视频。不想发出去的视频，看之前先在设置页把开关关掉。密钥、设置、译文和没翻完的英文字幕保存在你的手机上。\n\n本模块只在手机上运行，只处理 YouTube 字幕和本模块的设置页，不含服务器配置，不提供任何网络接入服务；开发者不运营服务器、不收集数据、不收费。\n\n本模块与 YouTube、Shadowrocket、DeepSeek 均无关联；请在所在地法律法规允许的范围内使用，并遵守相关服务的条款。
+#!author=kaixuedev
+#!version=3.7.3
+#!category=字幕
+#!openUrl=https://subs.test/
+
+# ─────────────────────────────────────────────────────────────
+# 配置不走 #!arguments。
+#
+# #!arguments 的默认值会被原样拼进 argument= 传给脚本。让模块参数也能改配置的话，这些默认值
+# 就成了又一个配置来源，会盖掉设置页里保存的改动；界面上又不容易找到「编辑参数」入口，
+# 用户自己改不回来。
+#
+# 配置的来源是：脚本顶部的 DEFAULTS（出厂值）⊕ 面板保存的改动（只存改过的键、白名单制）。
+# 面板已经是配置入口，再加模块参数等于多一个会把它盖掉的来源。
+# ─────────────────────────────────────────────────────────────
+
+
+# ─────────────────────────────────────────────────────────────
+# 拒绝 YouTube 的 QUIC（UDP 443），让 App 改走普通 HTTPS，否则本模块大概率完全不触发。
+#
+# YouTube 在 alt-svc 里广告 h3=":443"，而 HTTP/3 走 UDP，MITM 解不开。
+# Shadowrocket 命中 MITM 主机名时不会自动拒绝 QUIC，所以要显式写这条规则。
+#
+# 注意：含 [Rule] 的模块只在「全局路由 = 配置」时生效。
+# ─────────────────────────────────────────────────────────────
+
+[Rule]
+AND,((PROTOCOL,UDP),(DST-PORT,443),(DOMAIN-SUFFIX,youtube.com)),REJECT-NO-DROP
+
+# 设置页的网址 subs.test 并不真的存在，请求全由脚本直接回话。不写下面这条的话，它会落到你自己配置里的兜底规则上：
+# 小火箭一边运行脚本，一边按那条规则去连这个不存在的网址，连不上就把还在等的脚本停掉，往往一秒上下就断。
+# 设置页的「测试连接」要等翻译服务回话，脚本一被停掉就会失败。写上下面这条，脚本才能等到翻译服务回话。
+# 有测试盯着这条规则。
+DOMAIN,subs.test,DIRECT
+
+# ▶ 不拒绝也不解密 googlevideo。
+#
+# 移动网页版的字幕看上去是 googlevideo 下发的 HLS/WebVTT 分片，其实不是：
+# HLS 清单链（hls_variant → hls_timedtext_playlist）里，
+# 字幕轨那条「分片」只是一份很小的索引，里面唯一的 #EXTINF 指回
+#   https://www.youtube.com/api/timedtext?...&fmt=vtt&range=0-<总秒数>
+# —— 字幕正文不从 googlevideo 出，googlevideo 只给一份索引。
+#
+# 所以解密 *.googlevideo.com 与拒绝它的 QUIC 都只有成本没有收益：
+# 前者把全部视频流量拖进 MITM，后者让播放从 QUIC 退回 TCP，
+# 而 googlevideo 上并没有可抓的字幕分片请求。
+#
+# 例外：直播的字幕会切成 googlevideo 上的 WebVTT 分片。
+# 本模块不支持直播字幕，要支持才需要重新考虑这条规则。
+
+[General]
+# 让发往 subs.test 的连接一律按 HTTP 请求处理，明文 http 的地址也能交到脚本手里。
+# %APPEND% 不能省：不加会整个盖掉配置里原有的这项设置。
+force-http-engine-hosts = %APPEND% subs.test
+
+# ─────────────────────────────────────────────────────────────
+# 所有 [Script] 都指向同一个 js，脚本内部按请求 URL 分派成几个角色
+# （字幕翻译 / 配置面板 / 后台补翻），这样出厂默认值只有一份。
+#
+# script-path 有两种写法。指向本仓库发布分支上的 ytsub.js：用户不碰任何文件，
+#   点一个 shadowrocket://install?module=<模块地址> 就装好；新版本推上发布分支后，
+#   小火箭下一次重新拉取脚本时拿到（raw.githubusercontent.com 自身最多缓存 5 分钟）。
+#   相对路径 Script/ytsub.js（相对小火箭数据根目录，Script/ 前缀不能省）：读手机上的本地文件，
+#   改了立刻生效，调试时用。
+# ─────────────────────────────────────────────────────────────
+
+[Script]
+# timeout 是小火箭允许这条脚本运行的上限，不是用户要等的时间（「测试连接」自己最多等 10 秒）。
+SubsPair.Panel = type=http-request, pattern=^https?:\/\/subs\.test(\/|$), requires-body=true, timeout=30, script-path=https://raw.githubusercontent.com/kaixuedev/SubsPair/release/ytsub.js
+
+# pattern 与 [MITM] 必须锁死同步：iOS 原生 App 与大屏(TV)界面走 www.youtube.com，
+# 移动网页版（Safari 直接开 youtube.com 会跳到 m.youtube.com）走 m.youtube.com。
+# pattern 里写了 (www|m) 而 [MITM] 漏掉 m 的话，m 域的 TLS 解不开，脚本不会被调用，
+# 表现是「移动网页端英文正常、中文完全出不来」。两边同改，缺一不可。
+SubsPair.Translate = type=http-response, pattern=^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext\?, requires-body=true, max-size=4194304, timeout=30, script-path=https://raw.githubusercontent.com/kaixuedev/SubsPair/release/ytsub.js
+
+# ─────────────────────────────────────────────────────────────
+# 后台补翻：每分钟醒一次，把速度档没来得及翻的批次铺进缓存。
+#
+# 为什么需要它：速度档一次请求只能跑一波，长视频一波铺不完；而 $done 之后脚本上下文
+# 就没了——本地没有任何「交回后继续翻」的机会。App 在一次会话里
+# 又不会重新请求字幕轨，只有切轨 / 重开 / 续播才会。所以剩下的部分只能靠另一个执行
+# 上下文补：这条 cron 脚本。队列为空时它毫秒级退出，不打端点、不写缓存。
+#
+# timeout 必须大于脚本自己的预算（ytsub.js 里 BF_BUDGET_MS = 40 秒），有测试盯着。
+# 新增或改动模块里的行，只更新 ytsub.js 不生效。用本地模块文件时，换了文件要在小火箭里把模块关掉再打开
+#   才会重新读取，光「编译」不行。
+# 装好后看面板「帮助与诊断」页的「后台翻译任务」：显示「正常 · …前运行」= 后台在跑；
+#   一直显示「未运行」→ 把下面那行注释掉、换成带 wake-system=1（cron 脚本的唤醒参数）的那行再试。
+# ─────────────────────────────────────────────────────────────
+SubsPair.Backfill = type=cron, cronexp=* * * * *, timeout=55, script-path=https://raw.githubusercontent.com/kaixuedev/SubsPair/release/ytsub.js
+# 面板「后台翻译任务」一直显示「未运行」时，把上一行注释掉、换成这一行：
+# SubsPair.Backfill = type=cron, cronexp=* * * * *, wake-system=1, timeout=55, script-path=https://raw.githubusercontent.com/kaixuedev/SubsPair/release/ytsub.js
+
+# ─────────────────────────────────────────────────────────────
+# 最小权限：YouTube 侧只解密 www.youtube.com（原生 App / 大屏 TV 界面）和
+# m.youtube.com（移动网页版）两个域，都是 timedtext 真实经过的主机。
+#
+# MITM 粒度只有 host 没有 path——声明一个域 = 该域全部 TLS 流量被解密，脚本能
+# 读到里面的 Google 会话 Cookie。本模块只需要 timedtext，所以不声明 *.googlevideo.com、
+# youtubei.googleapis.com 等其他域。
+#
+# subs.test 也挂上：Safari 会把手输的地址升级成 https，不挂 MITM 面板就打不开。
+# %APPEND% 不能省：不加会覆盖配置里已有的解密主机名，弄坏其他模块。
+# ─────────────────────────────────────────────────────────────
+
+[MITM]
+hostname = %APPEND% www.youtube.com, m.youtube.com, subs.test

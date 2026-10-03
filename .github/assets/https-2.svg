@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="636" viewBox="0 0 1200 636">
+  <title>在小火箭里：配置 → 当前配置右边的 ⓘ → 打开 HTTPS 解密 → 证书 → 生成新的 CA 证书 → 安装证书；跳到 Safari 后点「允许」，下载后马上去装</title>
+  <g font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <g fill="none" stroke="#8e8e93" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M182 60H222M209 47l13 13-13 13"/>
+      <path d="M430 60H470M457 47l13 13-13 13"/>
+      <path d="M713 126q0 20-20 20H106q-20 0-20 20V210q0 22 22 22H222M209 219l13 13-13 13"/>
+      <path d="M699 232H739M726 219l13 13-13 13"/>
+      <path d="M843 298q0 20-20 20H106q-20 0-20 20V382q0 22 22 22H222M209 391l13 13-13 13"/>
+      <path d="M709 404H749M736 391l13 13-13 13"/>
+      <path d="M182 576H222M209 563l13 13-13 13"/>
+    </g>
+    <g fill="#636366">
+      <rect x="6" y="24" width="160" height="72" rx="36"/>
+      <rect x="6" y="540" width="160" height="72" rx="36"/>
+    </g>
+    <g fill="#fff" font-size="40" font-weight="600" text-anchor="middle">
+      <text x="86" y="74">小火箭</text>
+      <text x="86" y="590">Safari</text>
+    </g>
+    <g fill="#ffffff" stroke="#d1d1d6" stroke-width="3">
+      <rect x="238" y="6" width="176" height="108" rx="26"/>
+      <rect x="486" y="6" width="454" height="108" rx="26"/>
+      <rect x="238" y="178" width="445" height="108" rx="26"/>
+      <rect x="755" y="178" width="176" height="108" rx="26"/>
+      <rect x="238" y="350" width="455" height="108" rx="26"/>
+      <rect x="765" y="350" width="260" height="108" rx="26"/>
+    </g>
+    <g fill="#fff3f4" stroke="#e61110" stroke-width="5">
+      <rect x="238" y="522" width="176" height="108" rx="26"/>
+    </g>
+    <g fill="#0f0f0f" font-size="48" font-weight="500" text-anchor="middle">
+      <text x="326" y="77">配置</text>
+      <text x="520" y="77" text-anchor="start">当前配置右边的</text>
+      <text x="272" y="249" text-anchor="start">HTTPS 解密</text>
+      <text x="843" y="249">证书</text>
+      <text x="465.7" y="421">生成新的 CA 证书</text>
+      <text x="895" y="421">安装证书</text>
+      <text font-weight="600" x="326" y="593">允许</text>
+    </g>
+    <g fill="none" stroke="#065fd4" stroke-linecap="round">
+      <circle cx="890" cy="60" r="18" stroke-width="3.5"/>
+      <path d="M890 59v11" stroke-width="4.5"/>
+    </g>
+    <circle cx="890" cy="51" r="3" fill="#065fd4"/>
+    <rect x="564.6" y="204" width="92" height="56" rx="28" fill="#34c759"/>
+    <circle cx="628.6" cy="232" r="24" fill="#fff"/>
+    <text x="442" y="590" fill="#7c7c80" font-size="40" font-weight="500">下载后马上去装</text>
+  </g>
+</svg>

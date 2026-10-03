@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<timedtext format="3">
+<head>
+<wp id="0"/>
+<wp id="1" ap="7" ah="50" av="100" rc="2" cc="40"/>
+</head>
+<body>
+<p t="0" d="2226" wp="1">Thanks for having me on the show</p>
+<p t="2226" d="1517" wp="1">Happy to. So you bake bread for a living</p>
+<p t="3743" d="2517" wp="1">I do, mostly sourdough</p>
+<p t="6260" d="1097" wp="1">and a few sweet things on weekends</p>
+<p t="7357" d="1196" wp="1">How early does your day start</p>
+<p t="8553" d="3094" wp="1">Around four in the morning</p>
+<p t="11647" d="1285" wp="1">The ovens need an hour to heat up</p>
+<p t="12932" d="2397" wp="1">and the dough has been resting overnight</p>
+<p t="15329" d="1137" wp="1">What's the first thing you check</p>
+<p t="16466" d="2978" wp="1">The smell, honestly</p>
+<p t="19444" d="1779" wp="1">If the starter smells sharp</p>
+<p t="21223" d="1053" wp="1">I know it's ready to go</p>
+<p t="22276" d="1252" wp="1">And if it doesn't</p>
+<p t="23528" d="2676" wp="1">Then I feed it and wait</p>
+<p t="26204" d="2612" wp="1">There's no way to rush it</p>
+<p t="28816" d="1186" wp="1">Do you ever get tired of waiting</p>
+<p t="30002" d="1885" wp="1">Not really, it's the quiet part of the day</p>
+<p t="31887" d="1271" wp="1">I make coffee and sweep the floor</p>
+<p t="33158" d="3157" wp="1">What goes wrong most often</p>
+<p t="36315" d="2638" wp="1">Too much water in the mix</p>
+<p t="38953" d="1142" wp="1">The loaf spreads out flat</p>
+<p t="40095" d="1407" wp="1">and the crust never gets crisp</p>
+<p t="41502" d="1814" wp="1">How do you fix that</p>
+<p t="43316" d="1153" wp="1">You don't, you start again</p>
+<p t="44469" d="2524" wp="1">and you measure more carefully next time</p>
+<p t="46993" d="1103" wp="1">Is there a loaf you're proud of</p>
+<p t="48096" d="1805" wp="1">A dark rye with caraway seeds</p>
+<p t="49901" d="1090" wp="1">It took me two years to get right</p>
+<p t="50991" d="3180" wp="1">What changed in the end</p>
+<p t="54171" d="1445" wp="1">A longer bake at a lower heat</p>
+<p t="55616" d="2086" wp="1">and a tray of water under the rack</p>
+<p t="57702" d="2616" wp="1">Do customers notice the difference</p>
+<p t="60318" d="1490" wp="1">Some do, and they tell me</p>
+<p t="61808" d="3114" wp="1">Most just come back the next week</p>
+<p t="64922" d="1382" wp="1">What would you tell a beginner</p>
+<p t="66304" d="2163" wp="1">Buy a cheap scale and use it</p>
+<p t="68467" d="3194" wp="1">Write down what you did each time</p>
+<p t="71661" d="1640" wp="1">and don't worry about the shape</p>
+<p t="73301" d="1322" wp="1">Any plans for the shop</p>
+<p t="74623" d="1669" wp="1">Maybe a second oven next spring</p>
+<p t="76292" d="2425" wp="1">and a small table by the window</p>
+<p t="78717" d="1299" wp="1">That sounds lovely</p>
+<p t="80016" d="3143" wp="1">Thanks again for coming in</p>
+<p t="83159" d="1157" wp="1">Thanks for having me on the show</p>
+<p t="84316" d="1144" wp="1">Happy to. So you bake bread for a living</p>
+<p t="85460" d="1743" wp="1">I do, mostly sourdough</p>
+<p t="87203" d="2933" wp="1">and a few sweet things on weekends</p>
+<p t="90136" d="3077" wp="1">How early does your day start</p>
+<p t="93213" d="2651" wp="1">Around four in the morning</p>
+<p t="95864" d="2186" wp="1">The ovens need an hour to heat up</p>
+<p t="98050" d="2807" wp="1">and the dough has been resting overnight</p>
+<p t="100857" d="2756" wp="1">What's the first thing you check</p>
+<p t="103613" d="2381" wp="1">The smell, honestly</p>
+<p t="105994" d="2127" wp="1">If the starter smells sharp</p>
+<p t="108121" d="1917" wp="1">I know it's ready to go</p>
+<p t="110038" d="1636" wp="1">And if it doesn't</p>
+<p t="111674" d="1899" wp="1">Then I feed it and wait</p>
+<p t="113573" d="1235" wp="1">There's no way to rush it</p>
+<p t="114808" d="2129" wp="1">Do you ever get tired of waiting</p>
+<p t="116937" d="3051" wp="1">Not really, it's the quiet part of the day</p>
+<p t="119988" d="2927" wp="1">I make coffee and sweep the floor</p>
+<p t="122915" d="2306" wp="1">What goes wrong most often</p>
+<p t="125221" d="2738" wp="1">Too much water in the mix</p>
+<p t="127959" d="2079" wp="1">The loaf spreads out flat</p>
+<p t="130038" d="1199" wp="1">and the crust never gets crisp</p>
+<p t="131237" d="1383" wp="1">How do you fix that</p>
+<p t="132620" d="2996" wp="1">You don't, you start again</p>
+<p t="135616" d="2612" wp="1">and you measure more carefully next time</p>
+<p t="138228" d="1575" wp="1">Is there a loaf you're proud of</p>
+<p t="139803" d="2301" wp="1">A dark rye with caraway seeds</p>
+<p t="142104" d="1522" wp="1">It took me two years to get right</p>
+<p t="143626" d="2902" wp="1">What changed in the end</p>
+<p t="146528" d="2627" wp="1">A longer bake at a lower heat</p>
+<p t="149155" d="1060" wp="1">and a tray of water under the rack</p>
+<p t="150215" d="1217" wp="1">Do customers notice the difference</p>
+<p t="151432" d="3185" wp="1">Some do, and they tell me</p>
+<p t="154617" d="2185" wp="1">Most just come back the next week</p>
+<p t="156802" d="2293" wp="1">What would you tell a beginner</p>
+<p t="159095" d="2334" wp="1">Buy a cheap scale and use it</p>
+<p t="161429" d="2934" wp="1">Write down what you did each time</p>
+<p t="164363" d="2768" wp="1">and don't worry about the shape</p>
+<p t="167131" d="1181" wp="1">Any plans for the shop</p>
+<p t="168312" d="1283" wp="1">Maybe a second oven next spring</p>
+<p t="169595" d="2005" wp="1">and a small table by the window</p>
+<p t="171600" d="2841" wp="1">That sounds lovely</p>
+<p t="174441" d="1166" wp="1">Thanks again for coming in</p>
+<p t="175607" d="1148" wp="1">Thanks for having me on the show</p>
+<p t="176755" d="2168" wp="1">Happy to. So you bake bread for a living</p>
+<p t="178923" d="2725" wp="1">I do, mostly sourdough</p>
+<p t="181648" d="2065" wp="1">and a few sweet things on weekends</p>
+<p t="183713" d="2480" wp="1">How early does your day start</p>
+<p t="186193" d="2321" wp="1">Around four in the morning</p>
+<p t="188514" d="992" wp="1">The ovens need an hour to heat up</p>
+<p t="189506" d="2791" wp="1">and the dough has been resting overnight</p>
+<p t="192297" d="2355" wp="1">What's the first thing you check</p>
+<p t="194652" d="1588" wp="1">The smell, honestly</p>
+<p t="196240" d="1379" wp="1">If the starter smells sharp</p>
+<p t="197619" d="2922" wp="1">I know it's ready to go</p>
+<p t="200541" d="1141" wp="1">And if it doesn't</p>
+<p t="201682" d="1793" wp="1">Then I feed it and wait</p>
+<p t="203475" d="2077" wp="1">There's no way to rush it</p>
+<p t="205552" d="1429" wp="1">Do you ever get tired of waiting</p>
+<p t="206981" d="1914" wp="1">Not really, it's the quiet part of the day</p>
+<p t="208895" d="2529" wp="1">I make coffee and sweep the floor</p>
+<p t="211424" d="2501" wp="1">What goes wrong most often</p>
+<p t="213925" d="2933" wp="1">Too much water in the mix</p>
+<p t="216858" d="1230" wp="1">The loaf spreads out flat</p>
+<p t="218088" d="1581" wp="1">and the crust never gets crisp</p>
+<p t="219669" d="2739" wp="1">How do you fix that</p>
+<p t="222408" d="2545" wp="1">You don't, you start again</p>
+<p t="224953" d="3150" wp="1">and you measure more carefully next time</p>
+<p t="228103" d="2038" wp="1">Is there a loaf you're proud of</p>
+<p t="230141" d="1460" wp="1">A dark rye with caraway seeds</p>
+<p t="231601" d="2663" wp="1">It took me two years to get right</p>
+<p t="234264" d="3153" wp="1">What changed in the end</p>
+<p t="237417" d="2040" wp="1">A longer bake at a lower heat</p>
+<p t="239457" d="2601" wp="1">and a tray of water under the rack</p>
+<p t="242058" d="2369" wp="1">Do customers notice the difference</p>
+<p t="244427" d="2458" wp="1">Some do, and they tell me</p>
+<p t="246885" d="1845" wp="1">Most just come back the next week</p>
+<p t="248730" d="1518" wp="1">What would you tell a beginner</p>
+<p t="250248" d="1239" wp="1">Buy a cheap scale and use it</p>
+<p t="251487" d="1621" wp="1">Write down what you did each time</p>
+<p t="253108" d="1519" wp="1">and don't worry about the shape</p>
+<p t="254627" d="1850" wp="1">Any plans for the shop</p>
+<p t="256477" d="1855" wp="1">Maybe a second oven next spring</p>
+<p t="258332" d="949" wp="1">and a small table by the window</p>
+<p t="259281" d="2886" wp="1">That sounds lovely</p>
+<p t="262167" d="1646" wp="1">Thanks again for coming in</p>
+<p t="263813" d="1976" wp="1">Thanks for having me on the show</p>
+<p t="265789" d="2054" wp="1">Happy to. So you bake bread for a living</p>
+<p t="267843" d="916" wp="1">I do, mostly sourdough</p>
+<p t="268759" d="1496" wp="1">and a few sweet things on weekends</p>
+<p t="270255" d="2616" wp="1">How early does your day start</p>
+<p t="272871" d="3089" wp="1">Around four in the morning</p>
+<p t="275960" d="2412" wp="1">The ovens need an hour to heat up</p>
+<p t="278372" d="2205" wp="1">and the dough has been resting overnight</p>
+<p t="280577" d="1414" wp="1">What's the first thing you check</p>
+<p t="281991" d="3011" wp="1">The smell, honestly</p>
+<p t="285002" d="1121" wp="1">If the starter smells sharp</p>
+<p t="286123" d="2770" wp="1">I know it's ready to go</p>
+<p t="288893" d="3190" wp="1">And if it doesn't</p>
+<p t="292083" d="2507" wp="1">Then I feed it and wait</p>
+<p t="294590" d="2530" wp="1">There's no way to rush it</p>
+<p t="297120" d="2534" wp="1">Do you ever get tired of waiting</p>
+<p t="299654" d="2514" wp="1">Not really, it's the quiet part of the day</p>
+<p t="302168" d="1324" wp="1">I make coffee and sweep the floor</p>
+<p t="303492" d="2872" wp="1">What goes wrong most often</p>
+<p t="306364" d="2540" wp="1">Too much water in the mix</p>
+<p t="308904" d="1154" wp="1">The loaf spreads out flat</p>
+<p t="310058" d="1680" wp="1">and the crust never gets crisp</p>
+<p t="311738" d="1175" wp="1">How do you fix that</p>
+<p t="312913" d="1755" wp="1">You don't, you start again</p>
+<p t="314668" d="2704" wp="1">and you measure more carefully next time</p>
+<p t="317372" d="1564" wp="1">Is there a loaf you're proud of</p>
+<p t="318936" d="1350" wp="1">A dark rye with caraway seeds</p>
+<p t="320286" d="2292" wp="1">It took me two years to get right</p>
+<p t="322578" d="1115" wp="1">What changed in the end</p>
+<p t="323693" d="1319" wp="1">A longer bake at a lower heat</p>
+<p t="325012" d="900" wp="1">and a tray of water under the rack</p>
+<p t="325912" d="1519" wp="1">Do customers notice the difference</p>
+<p t="327431" d="3097" wp="1">Some do, and they tell me</p>
+<p t="330528" d="1315" wp="1">Most just come back the next week</p>
+<p t="331843" d="2389" wp="1">What would you tell a beginner</p>
+<p t="334232" d="1004" wp="1">Buy a cheap scale and use it</p>
+<p t="335236" d="1188" wp="1">Write down what you did each time</p>
+<p t="336424" d="1751" wp="1">and don't worry about the shape</p>
+<p t="338175" d="2441" wp="1">Any plans for the shop</p>
+<p t="340616" d="1508" wp="1">Maybe a second oven next spring</p>
+<p t="342124" d="1933" wp="1">and a small table by the window</p>
+<p t="344057" d="2322" wp="1">That sounds lovely</p>
+<p t="346379" d="2391" wp="1">Thanks again for coming in</p>
+<p t="348770" d="2842" wp="1">Thanks for having me on the show</p>
+<p t="351612" d="1403" wp="1">Happy to. So you bake bread for a living</p>
+<p t="353015" d="1372" wp="1">I do, mostly sourdough</p>
+<p t="354387" d="2899" wp="1">and a few sweet things on weekends</p>
+<p t="357286" d="2808" wp="1">How early does your day start</p>
+<p t="360094" d="2867" wp="1">Around four in the morning</p>
+<p t="362961" d="2881" wp="1">The ovens need an hour to heat up</p>
+<p t="365842" d="2177" wp="1">and the dough has been resting overnight</p>
+<p t="368019" d="1251" wp="1">What's the first thing you check</p>
+<p t="369270" d="1490" wp="1">The smell, honestly</p>
+<p t="370760" d="1318" wp="1">If the starter smells sharp</p>
+<p t="372078" d="2303" wp="1">I know it's ready to go</p>
+<p t="374381" d="1984" wp="1">And if it doesn't</p>
+<p t="376365" d="2860" wp="1">Then I feed it and wait</p>
+<p t="379225" d="1561" wp="1">There's no way to rush it</p>
+<p t="380786" d="3014" wp="1">Do you ever get tired of waiting</p>
+<p t="383800" d="994" wp="1">Not really, it's the quiet part of the day</p>
+<p t="384794" d="1740" wp="1">I make coffee and sweep the floor</p>
+<p t="386534" d="3063" wp="1">What goes wrong most often</p>
+<p t="389597" d="2381" wp="1">Too much water in the mix</p>
+<p t="391978" d="1500" wp="1">The loaf spreads out flat</p>
+<p t="393478" d="3124" wp="1">and the crust never gets crisp</p>
+<p t="396602" d="1010" wp="1">How do you fix that</p>
+<p t="397612" d="3063" wp="1">You don't, you start again</p>
+<p t="400675" d="2120" wp="1">and you measure more carefully next time</p>
+<p t="402795" d="1272" wp="1">Is there a loaf you're proud of</p>
+<p t="404067" d="1969" wp="1">A dark rye with caraway seeds</p>
+<p t="406036" d="3023" wp="1">It took me two years to get right</p>
+<p t="409059" d="2402" wp="1">What changed in the end</p>
+<p t="411461" d="1584" wp="1">A longer bake at a lower heat</p>
+<p t="413045" d="2356" wp="1">and a tray of water under the rack</p>
+<p t="415401" d="1812" wp="1">Do customers notice the difference</p>
+<p t="417213" d="3081" wp="1">Some do, and they tell me</p>
+<p t="420294" d="3118" wp="1">Most just come back the next week</p>
+<p t="423412" d="2959" wp="1">What would you tell a beginner</p>
+<p t="426371" d="2250" wp="1">Buy a cheap scale and use it</p>
+<p t="428621" d="1813" wp="1">Write down what you did each time</p>
+<p t="430434" d="1699" wp="1">and don't worry about the shape</p>
+<p t="432133" d="1880" wp="1">Any plans for the shop</p>
+<p t="434013" d="2541" wp="1">Maybe a second oven next spring</p>
+<p t="436554" d="1828" wp="1">and a small table by the window</p>
+<p t="438382" d="1718" wp="1">That sounds lovely</p>
+<p t="440100" d="3020" wp="1">Thanks again for coming in</p>
+<p t="443120" d="2918" wp="1">Thanks for having me on the show</p>
+<p t="446038" d="2356" wp="1">Happy to. So you bake bread for a living</p>
+<p t="448394" d="1018" wp="1">I do, mostly sourdough</p>
+<p t="449412" d="1014" wp="1">and a few sweet things on weekends</p>
+<p t="450426" d="2044" wp="1">How early does your day start</p>
+<p t="452470" d="2834" wp="1">Around four in the morning</p>
+<p t="455304" d="1961" wp="1">The ovens need an hour to heat up</p>
+<p t="457265" d="1693" wp="1">and the dough has been resting overnight</p>
+<p t="458958" d="2310" wp="1">What's the first thing you check</p>
+<p t="461268" d="2731" wp="1">The smell, honestly</p>
+<p t="463999" d="2331" wp="1">If the starter smells sharp</p>
+<p t="466330" d="2393" wp="1">I know it's ready to go</p>
+<p t="468723" d="1229" wp="1">And if it doesn't</p>
+<p t="469952" d="1803" wp="1">Then I feed it and wait</p>
+<p t="471755" d="1318" wp="1">There's no way to rush it</p>
+<p t="473073" d="1829" wp="1">Do you ever get tired of waiting</p>
+<p t="474902" d="2825" wp="1">Not really, it's the quiet part of the day</p>
+<p t="477727" d="1705" wp="1">I make coffee and sweep the floor</p>
+<p t="479432" d="2283" wp="1">What goes wrong most often</p>
+<p t="481715" d="1737" wp="1">Too much water in the mix</p>
+<p t="483452" d="2876" wp="1">The loaf spreads out flat</p>
+<p t="486328" d="907" wp="1">and the crust never gets crisp</p>
+<p t="487235" d="2863" wp="1">How do you fix that</p>
+<p t="490098" d="2309" wp="1">You don't, you start again</p>
+<p t="492407" d="1247" wp="1">and you measure more carefully next time</p>
+<p t="493654" d="1391" wp="1">Is there a loaf you're proud of</p>
+<p t="495045" d="2491" wp="1">A dark rye with caraway seeds</p>
+<p t="497536" d="1716" wp="1">It took me two years to get right</p>
+<p t="499252" d="2858" wp="1">What changed in the end</p>
+<p t="502110" d="1631" wp="1">A longer bake at a lower heat</p>
+<p t="503741" d="2677" wp="1">and a tray of water under the rack</p>
+<p t="506418" d="2261" wp="1">Do customers notice the difference</p>
+<p t="508679" d="1255" wp="1">Some do, and they tell me</p>
+<p t="509934" d="2521" wp="1">Most just come back the next week</p>
+<p t="512455" d="2797" wp="1">What would you tell a beginner</p>
+<p t="515252" d="2544" wp="1">Buy a cheap scale and use it</p>
+<p t="517796" d="1247" wp="1">Write down what you did each time</p>
+<p t="519043" d="1550" wp="1">and don't worry about the shape</p>
+<p t="520593" d="1596" wp="1">Any plans for the shop</p>
+<p t="522189" d="1420" wp="1">Maybe a second oven next spring</p>
+<p t="523609" d="1012" wp="1">and a small table by the window</p>
+<p t="524621" d="1519" wp="1">That sounds lovely</p>
+<p t="526140" d="2806" wp="1">Thanks again for coming in</p>
+<p t="528946" d="1498" wp="1">Thanks for having me on the show</p>
+<p t="530444" d="2842" wp="1">Happy to. So you bake bread for a living</p>
+<p t="533286" d="2335" wp="1">I do, mostly sourdough</p>
+<p t="535621" d="1538" wp="1">and a few sweet things on weekends</p>
+<p t="537159" d="3147" wp="1">How early does your day start</p>
+<p t="540306" d="3145" wp="1">Around four in the morning</p>
+<p t="543451" d="1436" wp="1">The ovens need an hour to heat up</p>
+<p t="544887" d="987" wp="1">and the dough has been resting overnight</p>
+<p t="545874" d="958" wp="1">What's the first thing you check</p>
+<p t="546832" d="1320" wp="1">The smell, honestly</p>
+<p t="548152" d="3056" wp="1">If the starter smells sharp</p>
+<p t="551208" d="1470" wp="1">I know it's ready to go</p>
+<p t="552678" d="2676" wp="1">And if it doesn't</p>
+<p t="555354" d="1697" wp="1">Then I feed it and wait</p>
+<p t="557051" d="1764" wp="1">There's no way to rush it</p>
+<p t="558815" d="1014" wp="1">Do you ever get tired of waiting</p>
+<p t="559829" d="1931" wp="1">Not really, it's the quiet part of the day</p>
+<p t="561760" d="1771" wp="1">I make coffee and sweep the floor</p>
+<p t="563531" d="2099" wp="1">What goes wrong most often</p>
+<p t="565630" d="2952" wp="1">Too much water in the mix</p>
+<p t="568582" d="1885" wp="1">The loaf spreads out flat</p>
+<p t="570467" d="2235" wp="1">and the crust never gets crisp</p>
+<p t="572702" d="1962" wp="1">How do you fix that</p>
+<p t="574664" d="3129" wp="1">You don't, you start again</p>
+<p t="577793" d="2616" wp="1">and you measure more carefully next time</p>
+<p t="580409" d="1436" wp="1">Is there a loaf you're proud of</p>
+<p t="581845" d="1149" wp="1">A dark rye with caraway seeds</p>
+<p t="582994" d="2349" wp="1">It took me two years to get right</p>
+<p t="585343" d="2776" wp="1">What changed in the end</p>
+<p t="588119" d="3016" wp="1">A longer bake at a lower heat</p>
+<p t="591135" d="2622" wp="1">and a tray of water under the rack</p>
+<p t="593757" d="2954" wp="1">Do customers notice the difference</p>
+<p t="596711" d="1435" wp="1">Some do, and they tell me</p>
+<p t="598146" d="3078" wp="1">Most just come back the next week</p>
+<p t="601224" d="1521" wp="1">What would you tell a beginner</p>
+<p t="602745" d="3044" wp="1">Buy a cheap scale and use it</p>
+<p t="605789" d="2991" wp="1">Write down what you did each time</p>
+<p t="608780" d="976" wp="1">and don't worry about the shape</p>
+<p t="609756" d="2702" wp="1">Any plans for the shop</p>
+<p t="612458" d="1650" wp="1">Maybe a second oven next spring</p>
+<p t="614108" d="916" wp="1">and a small table by the window</p>
+<p t="615024" d="1513" wp="1">That sounds lovely</p>
+<p t="616537" d="1605" wp="1">Thanks again for coming in</p>
+<p t="618142" d="1479" wp="1">Thanks for having me on the show</p>
+<p t="619621" d="2839" wp="1">Happy to. So you bake bread for a living</p>
+<p t="622460" d="1392" wp="1">I do, mostly sourdough</p>
+<p t="623852" d="3179" wp="1">and a few sweet things on weekends</p>
+<p t="627031" d="1152" wp="1">How early does your day start</p>
+<p t="628183" d="2235" wp="1">Around four in the morning</p>
+<p t="630418" d="3023" wp="1">The ovens need an hour to heat up</p>
+<p t="633441" d="3073" wp="1">and the dough has been resting overnight</p>
+<p t="636514" d="3175" wp="1">What's the first thing you check</p>
+<p t="639689" d="2876" wp="1">The smell, honestly</p>
+<p t="642565" d="1334" wp="1">If the starter smells sharp</p>
+<p t="643899" d="3194" wp="1">I know it's ready to go</p>
+<p t="647093" d="1132" wp="1">And if it doesn't</p>
+<p t="648225" d="1917" wp="1">Then I feed it and wait</p>
+<p t="650142" d="1683" wp="1">There's no way to rush it</p>
+<p t="651825" d="2034" wp="1">Do you ever get tired of waiting</p>
+<p t="653859" d="1072" wp="1">Not really, it's the quiet part of the day</p>
+<p t="654931" d="1300" wp="1">I make coffee and sweep the floor</p>
+<p t="656231" d="2979" wp="1">What goes wrong most often</p>
+<p t="659210" d="2752" wp="1">Too much water in the mix</p>
+<p t="661962" d="3200" wp="1">The loaf spreads out flat</p>
+<p t="665162" d="1014" wp="1">and the crust never gets crisp</p>
+<p t="666176" d="1159" wp="1">How do you fix that</p>
+<p t="667335" d="2715" wp="1">You don't, you start again</p>
+<p t="670050" d="2233" wp="1">and you measure more carefully next time</p>
+<p t="672283" d="2970" wp="1">Is there a loaf you're proud of</p>
+<p t="675253" d="2997" wp="1">A dark rye with caraway seeds</p>
+<p t="678250" d="1716" wp="1">It took me two years to get right</p>
+<p t="679966" d="2035" wp="1">What changed in the end</p>
+<p t="682001" d="2752" wp="1">A longer bake at a lower heat</p>
+<p t="684753" d="2981" wp="1">and a tray of water under the rack</p>
+<p t="687734" d="3084" wp="1">Do customers notice the difference</p>
+<p t="690818" d="2858" wp="1">Some do, and they tell me</p>
+<p t="693676" d="2979" wp="1">Most just come back the next week</p>
+<p t="696655" d="1914" wp="1">What would you tell a beginner</p>
+<p t="698569" d="3043" wp="1">Buy a cheap scale and use it</p>
+<p t="701612" d="1963" wp="1">Write down what you did each time</p>
+<p t="703575" d="3191" wp="1">and don't worry about the shape</p>
+<p t="706766" d="1729" wp="1">Any plans for the shop</p>
+<p t="708495" d="2733" wp="1">Maybe a second oven next spring</p>
+<p t="711228" d="1461" wp="1">and a small table by the window</p>
+<p t="712689" d="2606" wp="1">That sounds lovely</p>
+<p t="715295" d="1398" wp="1">Thanks again for coming in</p>
+<p t="716693" d="2507" wp="1">Thanks for having me on the show</p>
+<p t="719200" d="2710" wp="1">Happy to. So you bake bread for a living</p>
+<p t="721910" d="2194" wp="1">I do, mostly sourdough</p>
+<p t="724104" d="1197" wp="1">and a few sweet things on weekends</p>
+<p t="725301" d="1885" wp="1">How early does your day start</p>
+<p t="727186" d="2654" wp="1">Around four in the morning</p>
+<p t="729840" d="1199" wp="1">The ovens need an hour to heat up</p>
+<p t="731039" d="1771" wp="1">and the dough has been resting overnight</p>
+<p t="732810" d="2140" wp="1">What's the first thing you check</p>
+<p t="734950" d="1401" wp="1">The smell, honestly</p>
+<p t="736351" d="1532" wp="1">If the starter smells sharp</p>
+<p t="737883" d="2399" wp="1">I know it's ready to go</p>
+<p t="740282" d="1485" wp="1">And if it doesn't</p>
+<p t="741767" d="1936" wp="1">Then I feed it and wait</p>
+<p t="743703" d="1462" wp="1">There's no way to rush it</p>
+<p t="745165" d="2815" wp="1">Do you ever get tired of waiting</p>
+<p t="747980" d="1799" wp="1">Not really, it's the quiet part of the day</p>
+<p t="749779" d="1285" wp="1">I make coffee and sweep the floor</p>
+<p t="751064" d="2531" wp="1">What goes wrong most often</p>
+<p t="753595" d="2895" wp="1">Too much water in the mix</p>
+<p t="756490" d="1566" wp="1">The loaf spreads out flat</p>
+<p t="758056" d="1816" wp="1">and the crust never gets crisp</p>
+<p t="759872" d="1561" wp="1">How do you fix that</p>
+<p t="761433" d="2667" wp="1">You don't, you start again</p>
+<p t="764100" d="3011" wp="1">and you measure more carefully next time</p>
+<p t="767111" d="2554" wp="1">Is there a loaf you're proud of</p>
+<p t="769665" d="2289" wp="1">A dark rye with caraway seeds</p>
+<p t="771954" d="2625" wp="1">It took me two years to get right</p>
+<p t="774579" d="1701" wp="1">What changed in the end</p>
+<p t="776280" d="2360" wp="1">A longer bake at a lower heat</p>
+<p t="778640" d="2204" wp="1">and a tray of water under the rack</p>
+<p t="780844" d="1277" wp="1">Do customers notice the difference</p>
+<p t="782121" d="2398" wp="1">Some do, and they tell me</p>
+<p t="784519" d="979" wp="1">Most just come back the next week</p>
+<p t="785498" d="2284" wp="1">What would you tell a beginner</p>
+<p t="787782" d="3169" wp="1">Buy a cheap scale and use it</p>
+<p t="790951" d="2778" wp="1">Write down what you did each time</p>
+<p t="793729" d="2704" wp="1">and don't worry about the shape</p>
+<p t="796433" d="974" wp="1">Any plans for the shop</p>
+<p t="797407" d="2474" wp="1">Maybe a second oven next spring</p>
+<p t="799881" d="2257" wp="1">and a small table by the window</p>
+<p t="802138" d="3019" wp="1">That sounds lovely</p>
+<p t="805157" d="2110" wp="1">Thanks again for coming in</p>
+<p t="807267" d="2998" wp="1">Thanks for having me on the show</p>
+<p t="810265" d="1163" wp="1">Happy to. So you bake bread for a living</p>
+<p t="811428" d="1362" wp="1">I do, mostly sourdough</p>
+<p t="812790" d="1836" wp="1">and a few sweet things on weekends</p>
+<p t="814626" d="1329" wp="1">How early does your day start</p>
+<p t="815955" d="1244" wp="1">Around four in the morning</p>
+<p t="817199" d="1987" wp="1">The ovens need an hour to heat up</p>
+<p t="819186" d="2013" wp="1">and the dough has been resting overnight</p>
+<p t="821199" d="1062" wp="1">What's the first thing you check</p>
+<p t="822261" d="1643" wp="1">The smell, honestly</p>
+<p t="823904" d="2007" wp="1">If the starter smells sharp</p>
+<p t="825911" d="1430" wp="1">I know it's ready to go</p>
+<p t="827341" d="2629" wp="1">And if it doesn't</p>
+<p t="829970" d="1959" wp="1">Then I feed it and wait</p>
+<p t="831929" d="2562" wp="1">There's no way to rush it</p>
+<p t="834491" d="1511" wp="1">Do you ever get tired of waiting</p>
+<p t="836002" d="3097" wp="1">Not really, it's the quiet part of the day</p>
+<p t="839099" d="3008" wp="1">I make coffee and sweep the floor</p>
+<p t="842107" d="2925" wp="1">What goes wrong most often</p>
+<p t="845032" d="2239" wp="1">Too much water in the mix</p>
+<p t="847271" d="1266" wp="1">The loaf spreads out flat</p>
+<p t="848537" d="2043" wp="1">and the crust never gets crisp</p>
+<p t="850580" d="1135" wp="1">How do you fix that</p>
+<p t="851715" d="1650" wp="1">You don't, you start again</p>
+<p t="853365" d="2642" wp="1">and you measure more carefully next time</p>
+<p t="856007" d="1196" wp="1">Is there a loaf you're proud of</p>
+<p t="857203" d="2001" wp="1">A dark rye with caraway seeds</p>
+<p t="859204" d="968" wp="1">It took me two years to get right</p>
+<p t="860172" d="1262" wp="1">What changed in the end</p>
+<p t="861434" d="1967" wp="1">A longer bake at a lower heat</p>
+<p t="863401" d="1243" wp="1">and a tray of water under the rack</p>
+<p t="864644" d="1810" wp="1">Do customers notice the difference</p>
+<p t="866454" d="1172" wp="1">Some do, and they tell me</p>
+<p t="867626" d="1983" wp="1">Most just come back the next week</p>
+<p t="869609" d="1398" wp="1">What would you tell a beginner</p>
+<p t="871007" d="2758" wp="1">Buy a cheap scale and use it</p>
+<p t="873765" d="947" wp="1">Write down what you did each time</p>
+<p t="874712" d="2289" wp="1">and don't worry about the shape</p>
+<p t="877001" d="3165" wp="1">Any plans for the shop</p>
+<p t="880166" d="2611" wp="1">Maybe a second oven next spring</p>
+<p t="882777" d="1997" wp="1">and a small table by the window</p>
+<p t="884774" d="1429" wp="1">That sounds lovely</p>
+<p t="886203" d="1076" wp="1">Thanks again for coming in</p>
+<p t="887279" d="3058" wp="1">Thanks for having me on the show</p>
+<p t="890337" d="1876" wp="1">Happy to. So you bake bread for a living</p>
+<p t="892213" d="1348" wp="1">I do, mostly sourdough</p>
+<p t="893561" d="1561" wp="1">and a few sweet things on weekends</p>
+<p t="895122" d="1972" wp="1">How early does your day start</p>
+<p t="897094" d="1106" wp="1">Around four in the morning</p>
+<p t="898200" d="1641" wp="1">The ovens need an hour to heat up</p>
+<p t="899841" d="1726" wp="1">and the dough has been resting overnight</p>
+<p t="901567" d="2177" wp="1">What's the first thing you check</p>
+<p t="903744" d="2149" wp="1">The smell, honestly</p>
+<p t="905893" d="3075" wp="1">If the starter smells sharp</p>
+<p t="908968" d="1743" wp="1">I know it's ready to go</p>
+<p t="910711" d="2087" wp="1">And if it doesn't</p>
+<p t="912798" d="2725" wp="1">Then I feed it and wait</p>
+<p t="915523" d="2948" wp="1">There's no way to rush it</p>
+<p t="918471" d="1628" wp="1">Do you ever get tired of waiting</p>
+<p t="920099" d="2008" wp="1">Not really, it's the quiet part of the day</p>
+<p t="922107" d="2321" wp="1">I make coffee and sweep the floor</p>
+<p t="924428" d="974" wp="1">What goes wrong most often</p>
+<p t="925402" d="1925" wp="1">Too much water in the mix</p>
+<p t="927327" d="1051" wp="1">The loaf spreads out flat</p>
+<p t="928378" d="962" wp="1">and the crust never gets crisp</p>
+<p t="929340" d="975" wp="1">How do you fix that</p>
+<p t="930315" d="2971" wp="1">You don't, you start again</p>
+<p t="933286" d="3157" wp="1">and you measure more carefully next time</p>
+<p t="936443" d="1676" wp="1">Is there a loaf you're proud of</p>
+<p t="938119" d="3006" wp="1">A dark rye with caraway seeds</p>
+<p t="941125" d="2844" wp="1">It took me two years to get right</p>
+<p t="943969" d="1906" wp="1">What changed in the end</p>
+<p t="945875" d="2731" wp="1">A longer bake at a lower heat</p>
+<p t="948606" d="1335" wp="1">and a tray of water under the rack</p>
+<p t="949941" d="2670" wp="1">Do customers notice the difference</p>
+<p t="952611" d="2927" wp="1">Some do, and they tell me</p>
+<p t="955538" d="3136" wp="1">Most just come back the next week</p>
+<p t="958674" d="2510" wp="1">What would you tell a beginner</p>
+<p t="961184" d="2975" wp="1">Buy a cheap scale and use it</p>
+<p t="964159" d="2160" wp="1">Write down what you did each time</p>
+<p t="966319" d="1781" wp="1">and don't worry about the shape</p>
+<p t="968100" d="1840" wp="1">Any plans for the shop</p>
+<p t="969940" d="2303" wp="1">Maybe a second oven next spring</p>
+<p t="972243" d="1713" wp="1">and a small table by the window</p>
+<p t="973956" d="1472" wp="1">That sounds lovely</p>
+<p t="975428" d="2557" wp="1">Thanks again for coming in</p>
+<p t="977985" d="2323" wp="1">Thanks for having me on the show</p>
+<p t="980308" d="1122" wp="1">Happy to. So you bake bread for a living</p>
+<p t="981430" d="1431" wp="1">I do, mostly sourdough</p>
+<p t="982861" d="958" wp="1">and a few sweet things on weekends</p>
+<p t="983819" d="1189" wp="1">How early does your day start</p>
+<p t="985008" d="1946" wp="1">Around four in the morning</p>
+<p t="986954" d="2664" wp="1">The ovens need an hour to heat up</p>
+<p t="989618" d="1568" wp="1">and the dough has been resting overnight</p>
+<p t="991186" d="1126" wp="1">What's the first thing you check</p>
+<p t="992312" d="1246" wp="1">The smell, honestly</p>
+<p t="993558" d="2460" wp="1">If the starter smells sharp</p>
+<p t="996018" d="2972" wp="1">I know it's ready to go</p>
+<p t="998990" d="2054" wp="1">And if it doesn't</p>
+<p t="1001044" d="1892" wp="1">Then I feed it and wait</p>
+<p t="1002936" d="2100" wp="1">There's no way to rush it</p>
+<p t="1005036" d="1085" wp="1">Do you ever get tired of waiting</p>
+<p t="1006121" d="2781" wp="1">Not really, it's the quiet part of the day</p>
+<p t="1008902" d="1659" wp="1">I make coffee and sweep the floor</p>
+<p t="1010561" d="1545" wp="1">What goes wrong most often</p>
+<p t="1012106" d="2001" wp="1">Too much water in the mix</p>
+<p t="1014107" d="2726" wp="1">The loaf spreads out flat</p>
+<p t="1016833" d="914" wp="1">and the crust never gets crisp</p>
+<p t="1017747" d="1978" wp="1">How do you fix that</p>
+<p t="1019725" d="2391" wp="1">You don't, you start again</p>
+<p t="1022116" d="2247" wp="1">and you measure more carefully next time</p>
+<p t="1024363" d="3140" wp="1">Is there a loaf you're proud of</p>
+<p t="1027503" d="2225" wp="1">A dark rye with caraway seeds</p>
+<p t="1029728" d="1901" wp="1">It took me two years to get right</p>
+<p t="1031629" d="1041" wp="1">What changed in the end</p>
+<p t="1032670" d="2167" wp="1">A longer bake at a lower heat</p>
+<p t="1034837" d="1792" wp="1">and a tray of water under the rack</p>
+<p t="1036629" d="2360" wp="1">Do customers notice the difference</p>
+<p t="1038989" d="1649" wp="1">Some do, and they tell me</p>
+<p t="1040638" d="904" wp="1">Most just come back the next week</p>
+<p t="1041542" d="2273" wp="1">What would you tell a beginner</p>
+<p t="1043815" d="2463" wp="1">Buy a cheap scale and use it</p>
+<p t="1046278" d="1243" wp="1">Write down what you did each time</p>
+<p t="1047521" d="2844" wp="1">and don't worry about the shape</p>
+<p t="1050365" d="2042" wp="1">Any plans for the shop</p>
+<p t="1052407" d="2959" wp="1">Maybe a second oven next spring</p>
+<p t="1055366" d="1723" wp="1">and a small table by the window</p>
+<p t="1057089" d="1916" wp="1">That sounds lovely</p>
+<p t="1059005" d="2967" wp="1">Thanks again for coming in</p>
+<p t="1061972" d="920" wp="1">Thanks for having me on the show</p>
+<p t="1062892" d="1272" wp="1">Happy to. So you bake bread for a living</p>
+<p t="1064164" d="1982" wp="1">I do, mostly sourdough</p>
+<p t="1066146" d="1267" wp="1">and a few sweet things on weekends</p>
+<p t="1067413" d="1489" wp="1">How early does your day start</p>
+<p t="1068902" d="2536" wp="1">Around four in the morning</p>
+<p t="1071438" d="1070" wp="1">The ovens need an hour to heat up</p>
+<p t="1072508" d="2513" wp="1">and the dough has been resting overnight</p>
+<p t="1075021" d="992" wp="1">What's the first thing you check</p>
+<p t="1076013" d="2127" wp="1">The smell, honestly</p>
+<p t="1078140" d="2146" wp="1">If the starter smells sharp</p>
+<p t="1080286" d="1853" wp="1">I know it's ready to go</p>
+<p t="1082139" d="1246" wp="1">And if it doesn't</p>
+<p t="1083385" d="3067" wp="1">Then I feed it and wait</p>
+<p t="1086452" d="1535" wp="1">There's no way to rush it</p>
+<p t="1087987" d="2495" wp="1">Do you ever get tired of waiting</p>
+<p t="1090482" d="2235" wp="1">Not really, it's the quiet part of the day</p>
+<p t="1092717" d="2924" wp="1">I make coffee and sweep the floor</p>
+<p t="1095641" d="1512" wp="1">What goes wrong most often</p>
+<p t="1097153" d="2063" wp="1">Too much water in the mix</p>
+<p t="1099216" d="1492" wp="1">The loaf spreads out flat</p>
+<p t="1100708" d="1079" wp="1">and the crust never gets crisp</p>
+<p t="1101787" d="3001" wp="1">How do you fix that</p>
+<p t="1104788" d="2658" wp="1">You don't, you start again</p>
+<p t="1107446" d="2970" wp="1">and you measure more carefully next time</p>
+<p t="1110416" d="1470" wp="1">Is there a loaf you're proud of</p>
+<p t="1111886" d="3045" wp="1">A dark rye with caraway seeds</p>
+<p t="1114931" d="2965" wp="1">It took me two years to get right</p>
+<p t="1117896" d="965" wp="1">What changed in the end</p>
+<p t="1118861" d="1841" wp="1">A longer bake at a lower heat</p>
+<p t="1120702" d="1248" wp="1">and a tray of water under the rack</p>
+<p t="1121950" d="1027" wp="1">Do customers notice the difference</p>
+<p t="1122977" d="1071" wp="1">Some do, and they tell me</p>
+<p t="1124048" d="1445" wp="1">Most just come back the next week</p>
+<p t="1125493" d="2377" wp="1">What would you tell a beginner</p>
+<p t="1127870" d="1329" wp="1">Buy a cheap scale and use it</p>
+<p t="1129199" d="2442" wp="1">Write down what you did each time</p>
+<p t="1131641" d="2748" wp="1">and don't worry about the shape</p>
+<p t="1134389" d="3187" wp="1">Any plans for the shop</p>
+<p t="1137576" d="1107" wp="1">Maybe a second oven next spring</p>
+<p t="1138683" d="977" wp="1">and a small table by the window</p>
+<p t="1139660" d="3076" wp="1">That sounds lovely</p>
+<p t="1142736" d="1901" wp="1">Thanks again for coming in</p>
+<p t="1144637" d="2904" wp="1">Thanks for having me on the show</p>
+<p t="1147541" d="1980" wp="1">Happy to. So you bake bread for a living</p>
+<p t="1149521" d="913" wp="1">I do, mostly sourdough</p>
+<p t="1150434" d="2771" wp="1">and a few sweet things on weekends</p>
+<p t="1153205" d="1187" wp="1">How early does your day start</p>
+<p t="1154392" d="2960" wp="1">Around four in the morning</p>
+<p t="1157352" d="3092" wp="1">The ovens need an hour to heat up</p>
+<p t="1160444" d="1276" wp="1">and the dough has been resting overnight</p>
+<p t="1161720" d="3054" wp="1">What's the first thing you check</p>
+<p t="1164774" d="1170" wp="1">The smell, honestly</p>
+<p t="1165944" d="2840" wp="1">If the starter smells sharp</p>
+<p t="1168784" d="1932" wp="1">I know it's ready to go</p>
+<p t="1170716" d="1204" wp="1">And if it doesn't</p>
+<p t="1171920" d="1987" wp="1">Then I feed it and wait</p>
+<p t="1173907" d="1861" wp="1">There's no way to rush it</p>
+<p t="1175768" d="1740" wp="1">Do you ever get tired of waiting</p>
+<p t="1177508" d="1845" wp="1">Not really, it's the quiet part of the day</p>
+<p t="1179353" d="2785" wp="1">I make coffee and sweep the floor</p>
+<p t="1182138" d="2923" wp="1">What goes wrong most often</p>
+<p t="1185061" d="2466" wp="1">Too much water in the mix</p>
+<p t="1187527" d="1214" wp="1">The loaf spreads out flat</p>
+<p t="1188741" d="2862" wp="1">and the crust never gets crisp</p>
+<p t="1191603" d="2076" wp="1">How do you fix that</p>
+<p t="1193679" d="1091" wp="1">You don't, you start again</p>
+<p t="1194770" d="1712" wp="1">and you measure more carefully next time</p>
+<p t="1196482" d="1217" wp="1">Is there a loaf you're proud of</p>
+<p t="1197699" d="1503" wp="1">A dark rye with caraway seeds</p>
+<p t="1199202" d="2258" wp="1">It took me two years to get right</p>
+<p t="1201460" d="1940" wp="1">What changed in the end</p>
+<p t="1203400" d="2146" wp="1">A longer bake at a lower heat</p>
+<p t="1205546" d="1446" wp="1">and a tray of water under the rack</p>
+<p t="1206992" d="951" wp="1">Do customers notice the difference</p>
+<p t="1207943" d="2875" wp="1">Some do, and they tell me</p>
+<p t="1210818" d="1148" wp="1">Most just come back the next week</p>
+<p t="1211966" d="2889" wp="1">What would you tell a beginner</p>
+<p t="1214855" d="2000" wp="1">Buy a cheap scale and use it</p>
+<p t="1216855" d="1307" wp="1">Write down what you did each time</p>
+<p t="1218162" d="1791" wp="1">and don't worry about the shape</p>
+<p t="1219953" d="2905" wp="1">Any plans for the shop</p>
+<p t="1222858" d="2091" wp="1">Maybe a second oven next spring</p>
+<p t="1224949" d="3015" wp="1">and a small table by the window</p>
+<p t="1227964" d="2069" wp="1">That sounds lovely</p>
+<p t="1230033" d="2803" wp="1">Thanks again for coming in</p>
+<p t="1232836" d="2808" wp="1">Thanks for having me on the show</p>
+<p t="1235644" d="2810" wp="1">Happy to. So you bake bread for a living</p>
+<p t="1238454" d="1385" wp="1">I do, mostly sourdough</p>
+<p t="1239839" d="3149" wp="1">and a few sweet things on weekends</p>
+<p t="1242988" d="1716" wp="1">How early does your day start</p>
+<p t="1244704" d="2176" wp="1">Around four in the morning</p>
+<p t="1246880" d="1251" wp="1">The ovens need an hour to heat up</p>
+<p t="1248131" d="2837" wp="1">and the dough has been resting overnight</p>
+<p t="1250968" d="971" wp="1">What's the first thing you check</p>
+<p t="1251939" d="2086" wp="1">The smell, honestly</p>
+<p t="1254025" d="2779" wp="1">If the starter smells sharp</p>
+<p t="1256804" d="1213" wp="1">I know it's ready to go</p>
+<p t="1258017" d="2975" wp="1">And if it doesn't</p>
+<p t="1260992" d="2740" wp="1">Then I feed it and wait</p>
+<p t="1263732" d="2000" wp="1">There's no way to rush it</p>
+<p t="1265732" d="2484" wp="1">Do you ever get tired of waiting</p>
+<p t="1268216" d="1759" wp="1">Not really, it's the quiet part of the day</p>
+<p t="1269975" d="1763" wp="1">I make coffee and sweep the floor</p>
+</body>
+</timedtext>

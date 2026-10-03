@@ -1,0 +1,38 @@
+# 一键安装页：只把 install/ 这一个目录发布到 GitHub Pages，不把整个仓库当网站。
+# 地址是 https://<用户名>.github.io/<仓库名>/。仓库设置里 Pages 的来源要选「GitHub Actions」；
+# 选好来源本身不触发发布，要有一次改到页面的推送，或者到 Actions 页手动运行一次这个流程。
+# GitHub 默认只让默认分支发布到 github-pages 环境，所以只在推送到 main、改到页面或本文件时发布（也可以手动运行）。
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths: ['install/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # 只在公开的仓库里发布：私有仓库不一定开得了 Pages，直接跳过
+    if: ${{ !github.event.repository.private }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: install
+      - id: deployment
+        uses: actions/deploy-pages@v5

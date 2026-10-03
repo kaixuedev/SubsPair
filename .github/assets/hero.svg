@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610">
+  <title>SubsPair 双语字幕效果</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d2451"/>
+      <stop offset=".3" stop-color="#4a3f80"/>
+      <stop offset=".52" stop-color="#a15d8d"/>
+      <stop offset=".66" stop-color="#e57e7d"/>
+      <stop offset=".78" stop-color="#fbac7a"/>
+      <stop offset=".9" stop-color="#ffd593"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="760" cy="250" r="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff4cc" stop-opacity=".95"/>
+      <stop offset=".14" stop-color="#ffe2a0" stop-opacity=".6"/>
+      <stop offset=".4" stop-color="#ffb482" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#ffb482" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hazeA" x1="0" y1="256" x2="0" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd4b2" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffd4b2" stop-opacity=".65"/>
+    </linearGradient>
+    <linearGradient id="hazeB" x1="0" y1="296" x2="0" y2="372" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2a79a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f2a79a" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="hazeC" x1="0" y1="340" x2="0" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c47b95" stop-opacity="0"/>
+      <stop offset="1" stop-color="#c47b95" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#707076"/>
+      <stop offset=".5" stop-color="#3a3a3e"/>
+      <stop offset="1" stop-color="#56565b"/>
+    </linearGradient>
+    <clipPath id="screen">
+      <rect width="1100" height="506" rx="70"/>
+    </clipPath>
+    <filter id="soft" x="-10%" y="-15%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="mist" x="-20%" y="-300%" width="140%" height="700%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+  </defs>
+
+  <rect x="52" y="44" width="1096" height="530" rx="88" fill="#000" opacity=".22" filter="url(#soft)"/>
+
+  <g fill="#3c3c40" stroke="#5a5a5f">
+    <rect x="372" y="25.5" width="136" height="9" rx="3"/>
+    <rect x="214" y="567.5" width="46" height="9" rx="3"/>
+    <rect x="326" y="567.5" width="82" height="9" rx="3"/>
+    <rect x="440" y="567.5" width="82" height="9" rx="3"/>
+  </g>
+  <rect x="32" y="30" width="1136" height="542" rx="88" fill="#1c1c1f" stroke="url(#rim)" stroke-width="2.5"/>
+  <rect x="38" y="36" width="1124" height="530" rx="82" fill="#050506"/>
+
+  <g transform="translate(50 48)">
+    <g clip-path="url(#screen)">
+      <rect width="1100" height="506" fill="url(#sky)"/>
+      <rect width="1100" height="506" fill="url(#glow)"/>
+      <circle cx="760" cy="250" r="46" fill="#fff6de"/>
+      <g fill="#ffe8d0" filter="url(#mist)">
+        <ellipse cx="712" cy="232" rx="170" ry="6" opacity=".55"/>
+        <ellipse cx="846" cy="214" rx="90" ry="4" opacity=".4"/>
+        <ellipse cx="470" cy="196" rx="110" ry="4.5" opacity=".22"/>
+      </g>
+      <g fill="none" stroke="#35284f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M636 158q7-5 13 5q6-10 13-5"/>
+        <path d="M676 136q5-4 10 3.5q5-7.5 10-3.5"/>
+        <path d="M606 184q4.5-3.5 9 3q4.5-6.5 9-3"/>
+      </g>
+
+      <path fill="#eca28f" d="M0 276 50 262 108 270 170 236 232 258 296 246 360 268 436 250 504 266 566 256 636 272 706 262 786 272 856 254 936 226 1004 246 1064 236 1100 246V506H0Z"/>
+      <rect y="256" width="1100" height="80" fill="url(#hazeA)"/>
+
+      <path fill="#cd7c8b" d="M0 316 70 290 150 306 236 272 318 300 396 286 470 312 548 292 640 322 716 300 800 316 884 290 962 308 1040 282 1100 294V506H0Z"/>
+      <rect y="296" width="1100" height="80" fill="url(#hazeB)"/>
+
+      <path fill="#93588a" d="M0 366 96 336 188 360 292 318 390 354 486 338 590 370 694 342 790 366 900 328 1000 352 1100 336V506H0Z"/>
+      <path fill="#a76995" d="M292 318 390 354 372 506H298ZM486 338 590 370 572 506H492ZM694 342 790 366 772 506H700ZM790 366 900 328 894 506H806ZM1000 352 1100 336V506H1012Z"/>
+      <rect y="340" width="1100" height="84" fill="url(#hazeC)"/>
+
+      <path fill="#5c3a6a" d="M0 420 110 384 226 408 350 372 470 404 590 392 700 420 820 388 940 414 1100 386V506H0Z"/>
+      <path fill="#6a4679" d="M350 372 470 404 452 506H356ZM590 392 700 420 684 506H596ZM700 420 820 388 814 506H712ZM940 414 1100 386V506H952Z"/>
+
+      <path fill="#2a1d42" d="M0 506V330L44 306 96 318 164 262 218 286 266 280 336 338 430 392 540 440 660 470 820 480 980 470 1100 484V506Z"/>
+      <path fill="#382753" d="M164 262 218 286 266 280 336 338 430 392 540 440 660 470 230 506Z"/>
+      <path fill="none" stroke="#ffb08a" stroke-opacity=".5" stroke-width="2" stroke-linejoin="round" d="M164 262 218 286 266 280 336 338 430 392"/>
+    </g>
+    <rect x="15" y="175" width="46" height="156" rx="23" fill="#000"/>
+    <rect x="60" y="490" width="980" height="4" rx="2" fill="#fff" opacity=".3"/>
+    <rect x="60" y="490" width="360" height="4" rx="2" fill="#fff" opacity=".9"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="42" font-weight="500" fill="#fff" text-anchor="middle">
+    <rect x="170" y="406" width="860" height="54" fill="#080808" fill-opacity=".75"/>
+    <rect x="294" y="460" width="612" height="54" fill="#080808" fill-opacity=".75"/>
+    <text x="600" y="447" textLength="836" lengthAdjust="spacingAndGlyphs">We made it to the top just as the sun came up.</text>
+    <text x="600" y="501">我们刚好在日出时爬到了山顶。</text>
+  </g>
+</svg>

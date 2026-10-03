@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="292" viewBox="0 0 1200 292">
+  <title>在 iPhone 设置里：通用 → 关于本机 → 证书信任设置 → 打开小火箭的证书（最容易漏）</title>
+  <g font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <g fill="none" stroke="#8e8e93" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M182 60H222M209 47l13 13-13 13"/>
+      <path d="M430 60H470M457 47l13 13-13 13"/>
+      <path d="M762 60H802M789 47l13 13-13 13"/>
+      <path d="M996 126q0 20-20 20H106q-20 0-20 20V210q0 22 22 22H222M209 219l13 13-13 13"/>
+    </g>
+    <g fill="#636366">
+      <rect x="6" y="24" width="160" height="72" rx="36"/>
+    </g>
+    <g fill="#fff" font-size="40" font-weight="600" text-anchor="middle">
+      <text x="86" y="74">设置</text>
+    </g>
+    <g fill="#ffffff" stroke="#d1d1d6" stroke-width="3">
+      <rect x="238" y="6" width="176" height="108" rx="26"/>
+      <rect x="486" y="6" width="260" height="108" rx="26"/>
+      <rect x="818" y="6" width="356" height="108" rx="26"/>
+    </g>
+    <g fill="#fff3f4" stroke="#e61110" stroke-width="5">
+      <rect x="238" y="178" width="464" height="108" rx="26"/>
+    </g>
+    <g fill="#0f0f0f" font-size="48" font-weight="500" text-anchor="middle">
+      <text x="326" y="77">通用</text>
+      <text x="616" y="77">关于本机</text>
+      <text x="996" y="77">证书信任设置</text>
+      <text font-weight="600" x="272" y="249" text-anchor="start">小火箭的证书</text>
+    </g>
+    <rect x="584" y="204" width="92" height="56" rx="28" fill="#34c759"/>
+    <circle cx="648" cy="232" r="24" fill="#fff"/>
+    <path d="M728 232l14-12v24z" fill="#e61110"/>
+    <rect x="740" y="200" width="204" height="64" rx="32" fill="#e61110"/>
+    <text x="842" y="246" fill="#fff" font-size="40" font-weight="600" text-anchor="middle">最容易漏</text>
+  </g>
+</svg>
